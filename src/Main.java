@@ -21,7 +21,7 @@ public class Main {
             }
             sum += array[i];
         }
-        return (sum - min - max) / (array.length - 2);
+        return (sum - min - max) / array.length;
 
     }
 }
